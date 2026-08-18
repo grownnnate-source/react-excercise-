@@ -1,0 +1,37 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.profile {
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d62976;
+  padding: 3px;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin: 15px 0 20px;
+  font-weight: 600;
+}
+
+.profile p {
+  color: #555;
+  margin: 10px 0;
+  font-size: 15px;
+}
