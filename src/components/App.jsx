@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Login from "./Login";
-import contacts from "./../contact";
+import contacts from "./../Contact";
 import Card from "./Card";
 
 function App() {
