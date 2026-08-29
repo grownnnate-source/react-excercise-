@@ -1,16 +1,64 @@
-# React + Vite
+# React Contact Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Student Information
 
-Currently, two official plugins are available:
+- **Name:** Natnael Bizuneh
+- **Student ID:** MO7480
+- **Section:** SE-B
+- **Email:** grownnnate@gmail.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a React application built using **React and Vite**.
 
-## Expanding the Oxlint configuration
+The application allows users to enter their contact information through a form and displays the contact information using reusable React components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The project also includes functionality for:
+
+- Adding a new user
+- Displaying contact information
+- Logging in and logging out
+- Passing data between components
+- Light and dark mode
+- Managing form inputs using React state
+
+---
+
+## Technologies Used
+
+- React
+- JavaScript
+- Vite
+- HTML
+- CSS
+
+---
+
+## Things I Learned
+
+### 1. React Components
+
+I learned how to break an application into smaller, reusable components.
+
+For example, this project uses components such as:
+
+- `App`
+- `Login`
+- `Card`
+- `Avatar`
+- `Detail`
+
+Each component has its own responsibility, which makes the application easier to organize and maintain.
+
+---
+
+### 2. React State
+
+I learned how to use the `useState` hook to store and update data.
+
+Example:
+
+```js
+const [user, setUser] = useState(null);
